@@ -7,10 +7,34 @@ body {
   background-color: var(--white);
   color: var(--navy);
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  padding: 30px;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+header h1, ul {
+  padding: 10px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
 }
