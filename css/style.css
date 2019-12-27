@@ -2,3 +2,15 @@
   --white: #EDF1FE;
   --navy: #282D3C;
 }
+
+body {
+  background-color: var(--white);
+  color: var(--navy);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
