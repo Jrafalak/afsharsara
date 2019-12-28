@@ -94,21 +94,12 @@ footer p {
   justify-content: center;
 }
 
-#content #bio #image-background {
-  background: url("../img/sara_mfa.webp") no-repeat center center fixed;
-  background-size: 500px;
-  width: 400px;
-  height: 500px;
-  box-shadow: 0 0 5px 5px var(--white) inset;
-}
-
-#content #bio p {
+#content #bio p,
+#content #bio img {
   width: 50%;
   min-width: 200px;
   max-width: 500px;
   padding: 20px;
-  background: rgb(200, 200, 200); /* fallback color */
-  background: rgba(200, 200, 200, 0.7);
 }
 
 #content #bio p #bio-name {
