@@ -89,7 +89,7 @@ footer p {
 
 #content #bio {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
@@ -121,10 +121,6 @@ footer p {
   header h1 {
     margin: 0;
     padding: 5px;
-  }
-
-  #content {
-    margin-top: 40px;
   }
 
   #content #bio {
