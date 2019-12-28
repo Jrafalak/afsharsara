@@ -16,6 +16,11 @@ body {
   height: calc(100vh - 60px);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -30,11 +35,6 @@ header ul li {
   list-style: none;
   display: inline-block;
   padding: 5px;
-}
-
-header ul li a {
-  text-decoration: none;
-  color: inherit;
 }
 
 header ul li a:hover,
@@ -71,6 +71,8 @@ footer p {
   justify-content: center;
 }
 
+/* home page */
+
 #content #jumbotron {
   display: flex;
   align-items: flex-start;
@@ -86,6 +88,8 @@ footer p {
   color: var(--white);
   text-align: center;
 }
+
+/* bio page */
 
 #content #bio {
   width: 100%;
@@ -105,6 +109,27 @@ footer p {
 
 #content #bio p #bio-name {
   font-weight: bold;
+}
+
+/* Contact page */
+
+#content #contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#content #contact a,
+#content #contact a img {
+  padding: 10px;
+}
+
+#content #contact a img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
 }
 
 @media (max-width: 850px) { 
@@ -127,6 +152,7 @@ footer p {
 
   #content {
     margin-top: 40px;
+    min-height: 400px;
   }
 
   #content #bio {
